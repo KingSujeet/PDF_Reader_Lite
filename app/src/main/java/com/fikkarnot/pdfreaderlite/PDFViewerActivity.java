@@ -34,7 +34,7 @@ public class PDFViewerActivity extends AppCompatActivity {
 
         // Interestial ad
           mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-6096748449570125/3346919427");
+        mInterstitialAd.setAdUnitId("Enter your own Interestial ad Unit ID");
         AdRequest adRequestInter = new AdRequest.Builder().build();
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
